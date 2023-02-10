@@ -1,0 +1,170 @@
+:root {
+  --accent-color: #404bbf;
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --primary-text-color: #434455;
+  --headings-color: #2e2f42;
+  --brand-color: #4d5ae5;
+  --background-color: #ffffff;
+  --team-background-color: #f4f4fd;
+  --subtle-background-color: #e7e9fc;
+}
+
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+  font-size: 16px;
+}
+/* =======MENU========= */
+.logo {
+  color: var(--headings-color);
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-first {
+  color: var(--brand-color);
+}
+
+.menu-link {
+  color: var(--headings-color);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.current {
+  color: var(--accent-color);
+}
+
+.email:hover,
+.email:focus {
+  color: var(--accent-color);
+}
+.phone-number:hover,
+.phone-number:focus {
+  color: var(--accent-color);
+}
+
+.email,
+.phone-number {
+  color: var(--primary-text-color);
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* =======HERO========== */
+.hero-title {
+  color: var(--background-color);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/* !!!!!!Temporary Background color!!!!! */
+.hero {
+  background-color: var(--headings-color);
+}
+
+.hero-button {
+  font-family: inherit;
+  color: var(--background-color);
+  background-color: var(--brand-color);
+  cursor: pointer;
+}
+.hero-button:hover {
+  background-color: var(--accent-color);
+}
+
+/* ======FEATURES/SECTION 1======== */
+
+.section-subtitle {
+  color: var(--headings-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.section-description {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ===========ABOUT US/SECTION 2======== */
+.section-title {
+  color: var(--headings-color);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* ===========OUR TEAM/SECTION 3======== */
+.team-section {
+  background-color: var(--team-background-color);
+}
+.team-section .section-item {
+  background-color: var(--background-color);
+}
+
+/* =========FOOTER================= *
+
+/* !!!!!!!!!!!!!!!!!===Temporarily background====== */
+.footer {
+  background-color: var(--headings-color);
+}
+
+.logo-footer {
+  color: var(--team-background-color);
+}
+.footer-text {
+  color: var(--subtle-background-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* =======PORTFOLIO PAGE============= */
+.portfolio-button {
+  font-family: inherit;
+  color: var(--brand-color);
+  background-color: var(--subtle-background-color);
+  font-weight: 500;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+.portfolio-list-name {
+  color: var(--headings-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio-description {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
